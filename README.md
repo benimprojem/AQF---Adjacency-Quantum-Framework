@@ -152,7 +152,7 @@ $$\[\boxed{\mathcal L_{AQF}=\Psi_i^*A_{ij}e^{i\phi_{ij}}\Psi_j+\alpha_\phi\sum_{
 | $$\(\Psi^*T\Psi\)$$ | recursive transport |
 | $$\((\Delta\phi)^2\)$$ | interaction/coupling |
 | $$\((\nabla A)^2\)$$ | gravity/curvature |
-| $$\(|G|^2\)$$ | stabilization gain |
+| $$\(\|G\|^2\)$$ | stabilization gain |
 | $$\(V(G)\)$$ | shell selection |
 | $$\(\Lambda_{M0}\)$$ | vacuum residual |
 
