@@ -135,7 +135,7 @@ olmalıdır.
 
 ## 4.1 Minimal Birleşik Form
 
-\[
+$$\[
 \boxed{
 \mathcal L_{AQF}
 =
@@ -157,13 +157,13 @@ V(G_i)
 -
 \Lambda_{M0}
 }
-\]
+\]$$
 
 ---
 
 ## 4.2 Açılmış Form
 
-\[
+$$\[
 \boxed{
 \mathcal L_{AQF}
 =
@@ -193,7 +193,7 @@ c_n
 -
 \Lambda_{M0}
 }
-\]
+\]$$
 
 ---
 
@@ -201,12 +201,12 @@ c_n
 
 | Terim | Fiziksel anlam |
 |---|---|
-| \(\Psi^*T\Psi\) | recursive transport |
-| \((\Delta\phi)^2\) | interaction/coupling |
-| \((\nabla A)^2\) | gravity/curvature |
-| \(|G|^2\) | stabilization gain |
-| \(V(G)\) | shell selection |
-| \(\Lambda_{M0}\) | vacuum residual |
+| $$\(\Psi^*T\Psi\)$$ | recursive transport |
+| $$\((\Delta\phi)^2\)$$ | interaction/coupling |
+| $$\((\nabla A)^2\)$$ | gravity/curvature |
+| $$\(|G|^2\)$$ | stabilization gain |
+| $$\(V(G)\)$$ | shell selection |
+| $$\(\Lambda_{M0}\)$$ | vacuum residual |
 
 ---
 
@@ -214,34 +214,34 @@ c_n
 
 Recursive stabilization:
 
-\[
+$$\[
 G_i=
 \sum_{p\in\Gamma_i}
 e^{i\Phi_p}
-\]
+\]$$
 
 Burada:
 
 | obje | anlam |
 |---|---|
-| \(\Gamma_i\) | recursive transport paths |
-| \(\Phi_p\) | toplam recursive phase |
+| $$\(\Gamma_i\)$$ | recursive transport paths |
+| $$\(\Phi_p\)$$ | toplam recursive phase |
 
 ---
 
 # 7. AQF Action
 
-\[
+$$\[
 S_{AQF}
 =
 \int d\tau\,\mathcal L_{AQF}
-\]
+\]$$
 
 Burada:
 
-\[
+$$\[
 \tau
-\]
+\]$$
 
 fiziksel zaman olmak zorunda değildir.
 
@@ -253,17 +253,17 @@ Recursive evolution parameter olarak yorumlanır.
 
 AQF’de temel stationary koşul:
 
-\[
+$$\[
 \boxed{
 \delta S_{AQF}=\epsilon
 }
-\]
+\]$$
 
 Burada:
 
-\[
+$$\[
 \epsilon\neq0
-\]
+\]$$
 
 minimum recursive mismatch’tir.
 
@@ -275,11 +275,11 @@ Tam perfect closure fiziksel değildir.
 
 Temel update yapısı:
 
-\[
+$$\[
 \Psi_i(\tau+1)
 =
 \sum_jT_{ij}\Psi_j(\tau)
-\]
+\]$$
 
 ---
 
@@ -287,7 +287,7 @@ Temel update yapısı:
 
 Temel stationary denklem:
 
-\[
+$$\[
 \boxed{
 E\psi
 =
@@ -299,23 +299,23 @@ g|\psi|^2\psi
 +
 V_{mod}(S)\psi
 }
-\]
+\]$$
 
 ---
 
 # 11. Adjacency Laplacian
 
-\[
+$$\[
 (\Delta_A\psi)_i
 =
 \sum_jA_{ij}(\psi_j-\psi_i)
-\]
+\]$$
 
 ---
 
 # 12. Energy Functional
 
-\[
+$$\[
 \boxed{
 \mathcal E[\psi]
 =
@@ -327,7 +327,7 @@ J|\nabla_A\psi|^2
 +
 V_{mod}|\psi|^2
 }
-\]
+\]$$
 
 ---
 
@@ -335,17 +335,17 @@ V_{mod}|\psi|^2
 
 Kararlı çözüm için:
 
-\[
+$$\[
 \frac{\delta\mathcal E}{\delta\psi}=0
-\]
+\]$$
 
 ve:
 
-\[
+$$\[
 \boxed{
 \frac{\delta^2\mathcal E}{\delta\psi^2}>0
 }
-\]
+\]$$
 
 olmalıdır.
 
@@ -355,13 +355,13 @@ olmalıdır.
 
 Critical stabilization:
 
-\[
+$$\[
 \boxed{
 |\psi|^2_{crit}
 =
 \frac g\sigma
 }
-\]
+\]$$
 
 ---
 
@@ -369,17 +369,17 @@ Critical stabilization:
 
 Kararlılık koşulu:
 
-\[
+$$\[
 |\psi|^2<\frac g\sigma
-\]
+\]$$
 
 olduğu için:
 
-\[
+$$\[
 \boxed{
 N_{stable}<\infty
 }
-\]
+\]$$
 
 çıkar.
 
@@ -401,41 +401,41 @@ Bu finite generation mekanizmasını verir.
 
 Lepton shell dizisi:
 
-\[
+$$\[
 S=\{13,21,29\}
-\]
+\]$$
 
 ve:
 
-\[
+$$\[
 \Delta S=8
-\]
+\]$$
 
 ---
 
 # 18. Lepton Kütle Formülü
 
-\[
+$$\[
 \boxed{
 \ln m
 =
 aS-bS^2+c
 }
-\]
+\]$$
 
 Lepton sektörü için:
 
-\[
+$$\[
 a=1.33326359017125
-\]
+\]$$
 
-\[
+$$\[
 b=0.019610459021328125
-\]
+\]$$
 
-\[
+$$\[
 c=-14.6896447299118
-\]
+\]$$
 
 ---
 
@@ -443,49 +443,49 @@ c=-14.6896447299118
 
 ## 19.1 Up-Tipi Kuarklar
 
-\[
+$$\[
 a=0.65141985202
-\]
+\]$$
 
-\[
+$$\[
 b=0.005051366569027778
-\]
+\]$$
 
-\[
+$$\[
 c=-2.938212555275
-\]
+\]$$
 
 ---
 
 ## 19.2 Down-Tipi Kuarklar
 
-\[
+$$\[
 a=0.26336821414972223
-\]
+\]$$
 
-\[
+$$\[
 b=-0.01080382649986111
-\]
+\]$$
 
-\[
+$$\[
 c=-1.250828100468889
-\]
+\]$$
 
 ---
 
 # 20. Nötrino Sektörü
 
-\[
+$$\[
 a=0
-\]
+\]$$
 
-\[
+$$\[
 b=0
-\]
+\]$$
 
-\[
+$$\[
 c=-9.903487552565825
-\]
+\]$$
 
 ---
 
@@ -493,17 +493,17 @@ c=-9.903487552565825
 
 Foton Proca limiti:
 
-\[
+$$\[
 a=0
-\]
+\]$$
 
-\[
+$$\[
 b=0
-\]
+\]$$
 
-\[
+$$\[
 c=-55.262042231857103
-\]
+\]$$
 
 ---
 
@@ -511,11 +511,11 @@ c=-55.262042231857103
 
 AQF’de:
 
-\[
+$$\[
 \boxed{
 \alpha^{-1}\approx137.3
 }
-\]
+\]$$
 
 recursive phase mismatch yapısından çıkar.
 
@@ -527,11 +527,11 @@ recursive phase mismatch yapısından çıkar.
 
 Lepton sektörü:
 
-\[
+$$\[
 \boxed{
 \text{5-gen recursive closure}
 }
-\]
+\]$$
 
 olarak yorumlanır.
 
@@ -541,11 +541,11 @@ olarak yorumlanır.
 
 Kuark sektörü:
 
-\[
+$$\[
 \boxed{
 \text{3-gen recursive closure}
 }
-\]
+\]$$
 
 olarak yorumlanır.
 
@@ -555,11 +555,11 @@ olarak yorumlanır.
 
 Topolojik yük:
 
-\[
+$$\[
 Q_w
 =
 \frac1{2\pi}\oint d\phi
-\]
+\]$$
 
 ---
 
@@ -567,9 +567,9 @@ Q_w
 
 Fractional closure:
 
-\[
+$$\[
 Q_w\notin\mathbb Z
-\]
+\]$$
 
 olduğunda:
 
@@ -583,11 +583,11 @@ Bu confinement üretir.
 
 Vakum:
 
-\[
+$$\[
 \boxed{
 \text{minimum recursive production medium}
 }
-\]
+\]$$
 
 olarak yorumlanır.
 
@@ -595,11 +595,11 @@ olarak yorumlanır.
 
 # 27. Vacuum Residual
 
-\[
+$$\[
 \Lambda_{M0}
 =
 \langle M0\rangle
-\]
+\]$$
 
 minimum recursive production seviyesidir.
 
@@ -609,11 +609,11 @@ minimum recursive production seviyesidir.
 
 Zaman:
 
-\[
+$$\[
 \boxed{
 \text{recursive update sıralamasının emergent limiti}
 }
-\]
+\]$$
 
 olarak yorumlanır.
 
@@ -621,13 +621,13 @@ olarak yorumlanır.
 
 # 29. Effective Distance
 
-\[
+$$\[
 \boxed{
 d(i,j)
 =
 -\log|A_{ij}|
 }
-\]
+\]$$
 
 ---
 
@@ -635,11 +635,11 @@ d(i,j)
 
 Continuum limitte:
 
-\[
+$$\[
 g_{\mu\nu}
 \sim
 f(A_{ij})
-\]
+\]$$
 
 metric emergence oluşur.
 
@@ -649,11 +649,11 @@ metric emergence oluşur.
 
 Gravity:
 
-\[
+$$\[
 \boxed{
 \text{transport geometry curvature}
 }
-\]
+\]$$
 
 olarak ortaya çıkar.
 
@@ -663,9 +663,9 @@ olarak ortaya çıkar.
 
 Phase mismatch:
 
-\[
+$$\[
 (\Delta\phi)^2
-\]
+\]$$
 
 continuum limitte gauge interaction üretir.
 
@@ -673,7 +673,7 @@ continuum limitte gauge interaction üretir.
 
 # 33. Continuum AQF Denklemi
 
-\[
+$$\[
 \boxed{
 E\psi
 =
@@ -685,13 +685,13 @@ g|\psi|^2\psi
 +
 V_{mod}(x)\psi
 }
-\]
+\]$$
 
 ---
 
 # 34. Continuum AQF Action
 
-\[
+$$\[
 \boxed{
 S_{AQF}
 =
@@ -706,7 +706,7 @@ J|\nabla\psi|^2
 V_{mod}|\psi|^2
 \Big]
 }
-\]
+\]$$
 
 ---
 
@@ -734,11 +734,11 @@ AQF’de:
 
 Tüm fizik:
 
-\[
+$$\[
 \boxed{
 \text{recursive transport medium’un emergent limitlerinden}
 }
-\]
+\]$$
 
 oluşur.
 
@@ -748,25 +748,25 @@ oluşur.
 
 Evren:
 
-\[
+$$\[
 \boxed{
 \text{perfect symmetry üzerine değil}
 }
-\]
+\]$$
 
-\[
+$$\[
 \boxed{
 \text{sürdürülebilir recursive mismatch üzerine kuruludur}
 }
-\]
+\]$$
 
 ve fiziksel yapılar:
 
-\[
+$$\[
 \boxed{
 \text{kararlı recursive eigenmode attractor çözümleridir}
 }
-\]
+\]$$
 
 olarak yorumlanır.
 
