@@ -135,65 +135,13 @@ olmalıdır.
 
 ## 4.1 Minimal Birleşik Form
 
-$$\[
-\boxed{
-\mathcal L_{AQF}
-=
-\Psi_i^*
-A_{ij}e^{i\phi_{ij}}
-\Psi_j
-+
-\alpha_\phi
-(\Delta\phi_{ij})^2
-+
-\beta_A
-(\nabla A_{ij})^2
-+
-\gamma_G|G_i|^2
--
-V(G_i)
-+
-\mathcal L_{mod}
--
-\Lambda_{M0}
-}
-\]$$
+$$\[\boxed{\mathcal L_{AQF}=\Psi_i^*A_{ij}e^{i\phi_{ij}}\Psi_j+\alpha_\phi(\Delta\phi_{ij})^2+\beta_A(\nabla A_{ij})^2+\gamma_G|G_i|^2-V(G_i)+\mathcal L_{mod}-\Lambda_{M0}}\]$$
 
 ---
 
 ## 4.2 Açılmış Form
 
-$$\[
-\boxed{
-\mathcal L_{AQF}
-=
-\Psi_i^*
-A_{ij}e^{i\phi_{ij}}
-\Psi_j
-+
-\alpha_\phi
-\sum_{\langle ij\rangle}
-(\Delta\phi_{ij})^2
-+
-\beta_A
-\sum_{\langle ij\rangle}
-(\nabla A_{ij})^2
-+
-\gamma_G
-\sum_i|G_i|^2
--
-V(G_i)
-+
-\sum_n
-c_n
-\cos\left(
-\frac{2\pi S}{m_n}+\phi_n
-\right)
-|\Psi|^2
--
-\Lambda_{M0}
-}
-\]$$
+$$\[\boxed{\mathcal L_{AQF}=\Psi_i^*A_{ij}e^{i\phi_{ij}}\Psi_j+\alpha_\phi\sum_{\langle ij\rangle}(\Delta\phi_{ij})^2+\beta_A\sum_{\langle ij\rangle}(\nabla A_{ij})^2+\gamma_G\sum_i|G_i|^2-V(G_i)+\sum_nc_n\cos\left(\frac{2\pi S}{m_n}+\phi_n\right)|\Psi|^2-\Lambda_{M0}}\]$$
 
 ---
 
