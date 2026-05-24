@@ -35,9 +35,9 @@ recursive transport medium’un emergent limitleri olarak yorumlanır.
 
 AQF’de temel katman yapısı:
 
-\[
+$$\[
 M0,M1,M2,\dots,M7
-\]
+\]$$
 
 şeklinde tanımlanır.
 
@@ -69,9 +69,9 @@ M0 recursive production başlamasıyla ortaya çıkar.
 
 Temel yapı:
 
-\[
+$$\[
 G=(V,E)
-\]
+\]$$
 
 weighted recursive adjacency graph’tır.
 
@@ -81,17 +81,17 @@ weighted recursive adjacency graph’tır.
 
 Temel operatör:
 
-\[
+$$\[
 T_{ij}=A_{ij}e^{i\phi_{ij}}
-\]
+\]$$
 
 Burada:
 
 | obje | anlam |
 |---|---|
-| \(A_{ij}\) | recursive adjacency amplitude |
-| \(\phi_{ij}\) | transport phase mismatch |
-| \(T_{ij}\) | recursive transport operator |
+| $$\(A_{ij}\)$$ | recursive adjacency amplitude |
+| $$\(\phi_{ij}\)$$ | transport phase mismatch |
+| $$\(T_{ij}\)$$ | recursive transport operator |
 
 ---
 
@@ -99,33 +99,33 @@ Burada:
 
 Durum uzayı:
 
-\[
+$$\[
 \mathcal H=\ell^2(V)
-\]
+\]$$
 
 olarak tanımlanır.
 
 Durum:
 
-\[
+$$\[
 \Psi_i\in\mathcal H
-\]
+\]$$
 
 şeklindedir.
 
 Norm:
 
-\[
+$$\[
 \|\Psi\|^2
 =
 \sum_i|\Psi_i|^2
-\]
+\]$$
 
 Kararlı fiziksel çözüm için:
 
-\[
+$$\[
 \|\Psi\|<\infty
-\]
+\]$$
 
 olmalıdır.
 
