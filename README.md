@@ -35,9 +35,7 @@ recursive transport medium’un emergent limitleri olarak yorumlanır.
 
 AQF’de temel katman yapısı:
 
-$$\[
-M0,M1,M2,\dots,M7
-\]$$
+$$\[M0,M1,M2,\dots,M7\]$$
 
 şeklinde tanımlanır.
 
@@ -69,9 +67,7 @@ M0 recursive production başlamasıyla ortaya çıkar.
 
 Temel yapı:
 
-$$\[
-G=(V,E)
-\]$$
+$$\[G=(V,E)\]$$
 
 weighted recursive adjacency graph’tır.
 
@@ -81,9 +77,7 @@ weighted recursive adjacency graph’tır.
 
 Temel operatör:
 
-$$\[
-T_{ij}=A_{ij}e^{i\phi_{ij}}
-\]$$
+$$\[T_{ij}=A_{ij}e^{i\phi_{ij}}\]$$
 
 Burada:
 
@@ -99,33 +93,23 @@ Burada:
 
 Durum uzayı:
 
-$$\[
-\mathcal H=\ell^2(V)
-\]$$
+$$\[\mathcal H=\ell^2(V)\]$$
 
 olarak tanımlanır.
 
 Durum:
 
-$$\[
-\Psi_i\in\mathcal H
-\]$$
+$$\[\Psi_i\in\mathcal H\]$$
 
 şeklindedir.
 
 Norm:
 
-$$\[
-\|\Psi\|^2
-=
-\sum_i|\Psi_i|^2
-\]$$
+$$\[\|\Psi\|^2=\sum_i|\Psi_i|^2\]$$
 
 Kararlı fiziksel çözüm için:
 
-$$\[
-\|\Psi\|<\infty
-\]$$
+$$\[\|\Psi\|<\infty\]$$
 
 olmalıdır.
 
@@ -162,11 +146,7 @@ $$\[\boxed{\mathcal L_{AQF}=\Psi_i^*A_{ij}e^{i\phi_{ij}}\Psi_j+\alpha_\phi\sum_{
 
 Recursive stabilization:
 
-$$\[
-G_i=
-\sum_{p\in\Gamma_i}
-e^{i\Phi_p}
-\]$$
+$$\[G_i=\sum_{p\in\Gamma_i}e^{i\Phi_p}\]$$
 
 Burada:
 
@@ -179,17 +159,11 @@ Burada:
 
 # 7. AQF Action
 
-$$\[
-S_{AQF}
-=
-\int d\tau\,\mathcal L_{AQF}
-\]$$
+$$\[S_{AQF}=\int d\tau\,\mathcal L_{AQF}\]$$
 
 Burada:
 
-$$\[
-\tau
-\]$$
+$$\[\tau\]$$
 
 fiziksel zaman olmak zorunda değildir.
 
@@ -201,17 +175,11 @@ Recursive evolution parameter olarak yorumlanır.
 
 AQF’de temel stationary koşul:
 
-$$\[
-\boxed{
-\delta S_{AQF}=\epsilon
-}
-\]$$
+$$\[\boxed{\delta S_{AQF}=\epsilon}\]$$
 
 Burada:
 
-$$\[
-\epsilon\neq0
-\]$$
+$$\[\epsilon\neq0\]$$
 
 minimum recursive mismatch’tir.
 
@@ -223,11 +191,7 @@ Tam perfect closure fiziksel değildir.
 
 Temel update yapısı:
 
-$$\[
-\Psi_i(\tau+1)
-=
-\sum_jT_{ij}\Psi_j(\tau)
-\]$$
+$$\[\Psi_i(\tau+1)=\sum_jT_{ij}\Psi_j(\tau)\]$$
 
 ---
 
@@ -235,47 +199,19 @@ $$\[
 
 Temel stationary denklem:
 
-$$\[
-\boxed{
-E\psi
-=
--J\Delta_A\psi
-+
-g|\psi|^2\psi
-+
-\sigma|\psi|^4\psi
-+
-V_{mod}(S)\psi
-}
-\]$$
+$$\[\boxed{E\psi=-J\Delta_A\psi+g|\psi|^2\psi+\sigma|\psi|^4\psi+V_{mod}(S)\psi}\]$$
 
 ---
 
 # 11. Adjacency Laplacian
 
-$$\[
-(\Delta_A\psi)_i
-=
-\sum_jA_{ij}(\psi_j-\psi_i)
-\]$$
+$$\[(\Delta_A\psi)_i=\sum_jA_{ij}(\psi_j-\psi_i)\]$$
 
 ---
 
 # 12. Energy Functional
 
-$$\[
-\boxed{
-\mathcal E[\psi]
-=
-J|\nabla_A\psi|^2
--
-\frac g2|\psi|^4
-+
-\frac\sigma3|\psi|^6
-+
-V_{mod}|\psi|^2
-}
-\]$$
+$$\[\boxed{\mathcal E[\psi]=J|\nabla_A\psi|^2-\frac g2|\psi|^4+\frac\sigma3|\psi|^6+V_{mod}|\psi|^2}\]$$
 
 ---
 
@@ -283,17 +219,11 @@ V_{mod}|\psi|^2
 
 Kararlı çözüm için:
 
-$$\[
-\frac{\delta\mathcal E}{\delta\psi}=0
-\]$$
+$$\[\frac{\delta\mathcal E}{\delta\psi}=0\]$$
 
 ve:
 
-$$\[
-\boxed{
-\frac{\delta^2\mathcal E}{\delta\psi^2}>0
-}
-\]$$
+$$\[\boxed{\frac{\delta^2\mathcal E}{\delta\psi^2}>0}\]$$
 
 olmalıdır.
 
@@ -303,13 +233,7 @@ olmalıdır.
 
 Critical stabilization:
 
-$$\[
-\boxed{
-|\psi|^2_{crit}
-=
-\frac g\sigma
-}
-\]$$
+$$\[\boxed{|\psi|^2_{crit}=\frac g\sigma}\]$$
 
 ---
 
@@ -317,17 +241,11 @@ $$\[
 
 Kararlılık koşulu:
 
-$$\[
-|\psi|^2<\frac g\sigma
-\]$$
+$$\[|\psi|^2<\frac g\sigma\]$$
 
 olduğu için:
 
-$$\[
-\boxed{
-N_{stable}<\infty
-}
-\]$$
+$$\[\boxed{N_{stable}<\infty}\]$$
 
 çıkar.
 
@@ -349,41 +267,25 @@ Bu finite generation mekanizmasını verir.
 
 Lepton shell dizisi:
 
-$$\[
-S=\{13,21,29\}
-\]$$
+$$\[S=\{13,21,29\}\]$$
 
 ve:
 
-$$\[
-\Delta S=8
-\]$$
+$$\[\Delta S=8\]$$
 
 ---
 
 # 18. Lepton Kütle Formülü
 
-$$\[
-\boxed{
-\ln m
-=
-aS-bS^2+c
-}
-\]$$
+$$\[\boxed{\ln m=aS-bS^2+c}\]$$
 
 Lepton sektörü için:
 
-$$\[
-a=1.33326359017125
-\]$$
+$$\[a=1.33326359017125\]$$
 
-$$\[
-b=0.019610459021328125
-\]$$
+$$\[b=0.019610459021328125\]$$
 
-$$\[
-c=-14.6896447299118
-\]$$
+$$\[c=-14.6896447299118\]$$
 
 ---
 
@@ -391,49 +293,31 @@ c=-14.6896447299118
 
 ## 19.1 Up-Tipi Kuarklar
 
-$$\[
-a=0.65141985202
-\]$$
+$$\[a=0.65141985202\]$$
 
-$$\[
-b=0.005051366569027778
-\]$$
+$$\[b=0.005051366569027778\]$$
 
-$$\[
-c=-2.938212555275
-\]$$
+$$\[c=-2.938212555275\]$$
 
 ---
 
 ## 19.2 Down-Tipi Kuarklar
 
-$$\[
-a=0.26336821414972223
-\]$$
+$$\[a=0.26336821414972223\]$$
 
-$$\[
-b=-0.01080382649986111
-\]$$
+$$\[b=-0.01080382649986111\]$$
 
-$$\[
-c=-1.250828100468889
-\]$$
+$$\[c=-1.250828100468889\]$$
 
 ---
 
 # 20. Nötrino Sektörü
 
-$$\[
-a=0
-\]$$
+$$\[a=0\]$$
 
-$$\[
-b=0
-\]$$
+$$\[b=0\]$$
 
-$$\[
-c=-9.903487552565825
-\]$$
+$$\[c=-9.903487552565825\]$$
 
 ---
 
@@ -441,17 +325,11 @@ c=-9.903487552565825
 
 Foton Proca limiti:
 
-$$\[
-a=0
-\]$$
+$$\[a=0\]$$
 
-$$\[
-b=0
-\]$$
+$$\[b=0\]$$
 
-$$\[
-c=-55.262042231857103
-\]$$
+$$\[c=-55.262042231857103\]$$
 
 ---
 
@@ -459,11 +337,7 @@ c=-55.262042231857103
 
 AQF’de:
 
-$$\[
-\boxed{
-\alpha^{-1}\approx137.3
-}
-\]$$
+$$\[\boxed{\alpha^{-1}\approx137.3}\]$$
 
 recursive phase mismatch yapısından çıkar.
 
@@ -475,11 +349,7 @@ recursive phase mismatch yapısından çıkar.
 
 Lepton sektörü:
 
-$$\[
-\boxed{
-\text{5-gen recursive closure}
-}
-\]$$
+$$\[\boxed{\text{5-gen recursive closure}}\]$$
 
 olarak yorumlanır.
 
@@ -489,11 +359,7 @@ olarak yorumlanır.
 
 Kuark sektörü:
 
-$$\[
-\boxed{
-\text{3-gen recursive closure}
-}
-\]$$
+$$\[\boxed{\text{3-gen recursive closure}}\]$$
 
 olarak yorumlanır.
 
@@ -503,11 +369,7 @@ olarak yorumlanır.
 
 Topolojik yük:
 
-$$\[
-Q_w
-=
-\frac1{2\pi}\oint d\phi
-\]$$
+$$\[Q_w=\frac1{2\pi}\oint d\phi\]$$
 
 ---
 
@@ -515,9 +377,7 @@ Q_w
 
 Fractional closure:
 
-$$\[
-Q_w\notin\mathbb Z
-\]$$
+$$\[Q_w\notin\mathbb Z\]$$
 
 olduğunda:
 
@@ -531,11 +391,7 @@ Bu confinement üretir.
 
 Vakum:
 
-$$\[
-\boxed{
-\text{minimum recursive production medium}
-}
-\]$$
+$$\[\boxed{\text{minimum recursive production medium}}\]$$
 
 olarak yorumlanır.
 
@@ -543,11 +399,7 @@ olarak yorumlanır.
 
 # 27. Vacuum Residual
 
-$$\[
-\Lambda_{M0}
-=
-\langle M0\rangle
-\]$$
+$$\[\Lambda_{M0}=\langle M0\rangle\]$$
 
 minimum recursive production seviyesidir.
 
@@ -557,11 +409,7 @@ minimum recursive production seviyesidir.
 
 Zaman:
 
-$$\[
-\boxed{
-\text{recursive update sıralamasının emergent limiti}
-}
-\]$$
+$$\[\boxed{\text{recursive update sıralamasının emergent limiti}}\]$$
 
 olarak yorumlanır.
 
@@ -569,13 +417,7 @@ olarak yorumlanır.
 
 # 29. Effective Distance
 
-$$\[
-\boxed{
-d(i,j)
-=
--\log|A_{ij}|
-}
-\]$$
+$$\[\boxed{d(i,j)=-\log|A_{ij}|}\]$$
 
 ---
 
@@ -583,11 +425,7 @@ d(i,j)
 
 Continuum limitte:
 
-$$\[
-g_{\mu\nu}
-\sim
-f(A_{ij})
-\]$$
+$$\[g_{\mu\nu}\simf(A_{ij})\]$$
 
 metric emergence oluşur.
 
@@ -597,11 +435,7 @@ metric emergence oluşur.
 
 Gravity:
 
-$$\[
-\boxed{
-\text{transport geometry curvature}
-}
-\]$$
+$$\[\boxed{\text{transport geometry curvature}}\]$$
 
 olarak ortaya çıkar.
 
@@ -611,9 +445,7 @@ olarak ortaya çıkar.
 
 Phase mismatch:
 
-$$\[
-(\Delta\phi)^2
-\]$$
+$$\[(\Delta\phi)^2\]$$
 
 continuum limitte gauge interaction üretir.
 
@@ -621,40 +453,13 @@ continuum limitte gauge interaction üretir.
 
 # 33. Continuum AQF Denklemi
 
-$$\[
-\boxed{
-E\psi
-=
--Ja^2\nabla^2\psi
-+
-g|\psi|^2\psi
-+
-\sigma|\psi|^4\psi
-+
-V_{mod}(x)\psi
-}
-\]$$
+$$\[\boxed{E\psi=-Ja^2\nabla^2\psi+g|\psi|^2\psi+\sigma|\psi|^4\psi+V_{mod}(x)\psi}\]$$
 
 ---
 
 # 34. Continuum AQF Action
 
-$$\[
-\boxed{
-S_{AQF}
-=
-\int d\tau\,d^3x
-\Big[
-J|\nabla\psi|^2
--
-\frac g2|\psi|^4
-+
-\frac\sigma3|\psi|^6
-+
-V_{mod}|\psi|^2
-\Big]
-}
-\]$$
+$$\[\boxed{S_{AQF}=\int d\tau\,d^3x\Big[J|\nabla\psi|^2-\frac g2|\psi|^4+\frac\sigma3|\psi|^6+V_{mod}|\psi|^2\Big]}\]$$
 
 ---
 
@@ -682,11 +487,7 @@ AQF’de:
 
 Tüm fizik:
 
-$$\[
-\boxed{
-\text{recursive transport medium’un emergent limitlerinden}
-}
-\]$$
+$$\[\boxed{\text{recursive transport medium’un emergent limitlerinden}}\]$$
 
 oluşur.
 
@@ -696,25 +497,13 @@ oluşur.
 
 Evren:
 
-$$\[
-\boxed{
-\text{perfect symmetry üzerine değil}
-}
-\]$$
+$$\[\boxed{\text{perfect symmetry üzerine değil}}\]$$
 
-$$\[
-\boxed{
-\text{sürdürülebilir recursive mismatch üzerine kuruludur}
-}
-\]$$
+$$\[\boxed{\text{sürdürülebilir recursive mismatch üzerine kuruludur}}\]$$
 
 ve fiziksel yapılar:
 
-$$\[
-\boxed{
-\text{kararlı recursive eigenmode attractor çözümleridir}
-}
-\]$$
+$$\[\boxed{\text{kararlı recursive eigenmode attractor çözümleridir}}\]$$
 
 olarak yorumlanır.
 
