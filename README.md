@@ -425,7 +425,7 @@ $$\[\boxed{d(i,j)=-\log|A_{ij}|}\]$$
 
 Continuum limitte:
 
-$$\[g_{\mu\nu}\simf(A_{ij})\]$$
+$$\[g_{\mu\nu}\sim f(A_{ij})\]$$
 
 metric emergence oluşur.
 
