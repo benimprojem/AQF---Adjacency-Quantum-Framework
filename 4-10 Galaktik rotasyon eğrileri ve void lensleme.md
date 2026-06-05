@@ -8,12 +8,12 @@ Yerçekimsel dinamiği bir "kuvvetten" ziyade bir **"topolojik distorsiyon alan�
 * Burada sistem, sadece kütle dağılımına değil, komşuluk (adjacency) ağının toplam entegraline ($\int \mathcal{A}(x,y) dy$) ve faz referanslarına ($\Phi_{S0}, \Phi_{ref}$) bağlı bir distorsiyon alanı üretir. Bu, klasik gravitasyonun "baryonik madde" merkezli bakış açısını, "adjacency yoğunluğu" merkezli bir yapıya çevirir.
 
 
-2. **Ek İvme $($a_W$)$ :**
+2. **Ek İvme ( $a_W$ ) :**
 * $a_W = \gamma_W \nabla \ln(W)$
 * Bu terim, distorsiyon alanının gradyanından (değişiminden) doğan "ek bir ivme" tanımlar. Galaktik ölçeklerde gözlemlenen "hız sapmaları", standart Newton mekaniğinde karanlık madde ile açıklanırken, AQF'de doğrudan bu topolojik distorsiyonun yarattığı ek gradyan etkisiyle açıklanmaktadır.
 
 
-3. **Galaksi Rotasyonu ($v^2(r)$):**
+3. **Galaksi Rotasyonu ( $v^2(r)$ ):**
 * $v^2(r) = \frac{G M(r)}{r} + r a_W(r)$
 * Burada birinci terim klasik Newtonyan yerçekimini, ikinci terim $($r a_W(r)$)$ ise topolojik distorsiyonun katkısını temsil eder. Bu formül, galaksilerin merkezinden uzaklaştıkça hızların neden beklenenden daha yüksek kaldığını ("flat rotation curves") matematiksel olarak, ek bir görünmez kütle (karanlık madde) eklemeden ifade eder.
 
