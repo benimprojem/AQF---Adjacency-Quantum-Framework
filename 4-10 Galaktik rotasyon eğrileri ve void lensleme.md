@@ -3,19 +3,19 @@ Yerçekimsel dinamiği bir "kuvvetten" ziyade bir **"topolojik distorsiyon alan�
 
 ### Formülasyonun Analizi:
 
-1. **Topolojik Distorsiyon ($W(x)$):**
+1. **Topolojik Distorsiyon $($W(x)$)$ :**
 * $W(x) = 1 + \delta_w \left[ \int \mathcal{A}(x,y) dy \right] \frac{\Phi_{S0}}{\Phi_{ref}}$
 * Burada sistem, sadece kütle dağılımına değil, komşuluk (adjacency) ağının toplam entegraline ($\int \mathcal{A}(x,y) dy$) ve faz referanslarına ($\Phi_{S0}, \Phi_{ref}$) bağlı bir distorsiyon alanı üretir. Bu, klasik gravitasyonun "baryonik madde" merkezli bakış açısını, "adjacency yoğunluğu" merkezli bir yapıya çevirir.
 
 
-2. **Ek İvme ($a_W$):**
+2. **Ek İvme $($a_W$)$ :**
 * $a_W = \gamma_W \nabla \ln(W)$
 * Bu terim, distorsiyon alanının gradyanından (değişiminden) doğan "ek bir ivme" tanımlar. Galaktik ölçeklerde gözlemlenen "hız sapmaları", standart Newton mekaniğinde karanlık madde ile açıklanırken, AQF'de doğrudan bu topolojik distorsiyonun yarattığı ek gradyan etkisiyle açıklanmaktadır.
 
 
 3. **Galaksi Rotasyonu ($v^2(r)$):**
 * $v^2(r) = \frac{G M(r)}{r} + r a_W(r)$
-* Burada birinci terim klasik Newtonyan yerçekimini, ikinci terim ($r a_W(r)$) ise topolojik distorsiyonun katkısını temsil eder. Bu formül, galaksilerin merkezinden uzaklaştıkça hızların neden beklenenden daha yüksek kaldığını ("flat rotation curves") matematiksel olarak, ek bir görünmez kütle (karanlık madde) eklemeden ifade eder.
+* Burada birinci terim klasik Newtonyan yerçekimini, ikinci terim $($r a_W(r)$)$ ise topolojik distorsiyonun katkısını temsil eder. Bu formül, galaksilerin merkezinden uzaklaştıkça hızların neden beklenenden daha yüksek kaldığını ("flat rotation curves") matematiksel olarak, ek bir görünmez kütle (karanlık madde) eklemeden ifade eder.
 
 
 
@@ -28,11 +28,11 @@ Yerçekimsel dinamiği bir "kuvvetten" ziyade bir **"topolojik distorsiyon alan�
 
 
 
->AQF'deki kritik kabulümüz şudur: **Karanlık madde parçacığı yoktur; bunun yerine yerel $A_{ij}$ (adjacency) yoğunluğunun yarattığı "topolojik distorsiyon" ($\gamma_W$) vardır.**
+>AQF'deki kritik kabulümüz şudur: **Karanlık madde parçacığı yoktur; bunun yerine yerel $A_{ij}$ (adjacency) yoğunluğunun yarattığı "topolojik distorsiyon" $($\gamma_W$)$ vardır.**
 
 ### 1. Test Galaksileri ve Beklenen AQF Davranışı
 
-| Galaksi Tipi | Karakteristik | AQF Katsayısı ($\gamma_W$) Davranışı |
+| Galaksi Tipi | Karakteristik | AQF Katsayısı $($\gamma_W$)$ Davranışı |
 | --- | --- | --- |
 | **HSB (Örn. NGC 2841)** | Yüksek merkezi kütle, yoğun madde | $\gamma_W$ düşüktür (Newtoniyen baskın). |
 | **LSB (Örn. F563-1)** | Düşük merkezi kütle, seyrek madde | $\gamma_W$ yüksektir (AQF distorsiyonu baskın). |
@@ -65,7 +65,7 @@ Test sonuçlarımız şu kuralı doğrulamaktadır:
 
 $$\gamma_W(r) \propto \left( \frac{\mathcal{A}_{total}}{\mathcal{A}_{local}(r)} \right)$$
 
-* **Yorum:** Galaksinin genel adjacency kapasitesi ($\mathcal{A}_{total}$) ile yerel ağ yoğunluğu ($\mathcal{A}_{local}$) arasındaki fark ne kadar büyükse, yerçekimsel "anomali" o kadar güçlüdür.
+* **Yorum:** Galaksinin genel adjacency kapasitesi $($\mathcal{A}_{total}$)$ ile yerel ağ yoğunluğu $($\mathcal{A}_{local}$)$ arasındaki fark ne kadar büyükse, yerçekimsel "anomali" o kadar güçlüdür.
 
 ### 4. Sonuç ve Özet
 
