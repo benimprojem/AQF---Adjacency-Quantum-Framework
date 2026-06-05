@@ -1,9 +1,9 @@
 
-Yerçekimsel dinamiği bir "kuvvetten" ziyade bir **"topolojik distorsiyon alanı" ($W(x)$)** olarak tanımlamaktadır.
+Yerçekimsel dinamiği bir "kuvvetten" ziyade bir **"topolojik distorsiyon alanı" ( $W(x)$ )** olarak tanımlamaktadır.
 
 ### Formülasyonun Analizi:
 
-1. **Topolojik Distorsiyon $($W(x)$)$ :**
+1. **Topolojik Distorsiyon ( $W(x)$ ) :**
 * $W(x) = 1 + \delta_w \left[ \int \mathcal{A}(x,y) dy \right] \frac{\Phi_{S0}}{\Phi_{ref}}$
 * Burada sistem, sadece kütle dağılımına değil, komşuluk (adjacency) ağının toplam entegraline ($\int \mathcal{A}(x,y) dy$) ve faz referanslarına ($\Phi_{S0}, \Phi_{ref}$) bağlı bir distorsiyon alanı üretir. Bu, klasik gravitasyonun "baryonik madde" merkezli bakış açısını, "adjacency yoğunluğu" merkezli bir yapıya çevirir.
 
