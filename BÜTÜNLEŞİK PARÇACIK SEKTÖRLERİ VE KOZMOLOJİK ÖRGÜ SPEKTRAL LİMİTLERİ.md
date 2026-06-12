@@ -28,53 +28,18 @@ $$m = S \times \sqrt{\frac{\gamma_0}{\Lambda_{\text{Mod}}}} \times (1 - \epsilon
 1. **$S$ (Kabuk Koordinatı / Düğüm Eşiği):** Parçacığın ait olduğu mod içerisindeki topolojik rezonans adımıdır (Fibonacci veya Clifford tabanlı tamsayı düğüm sayısı).
 * *Elektron (Mod 8) için:* $S = 13$
 * *Proton (Mod 6) için:* $S = 938$ (veya kuark tabanında ilgili koordinat)
-* *Higgs (Mod 16) için:* $S = 125$
+
 
 
 2. **$\gamma_0$ (Kök Matris Çıplak Gerilimi):** İpliğin kırılma sınırındaki taban enerji gerilimidir. Clifford kütle gerilimi taban değeri olarak evrensel olarak $\gamma_0 = 1.0003 \text{ GeV/c}^2$ düzeyine kilitlenmiştir.
 3. **$\Lambda_{\text{Mod}}$ (İlgili Modun Analitik Sınır Katsayısı):** Parçacığın ait olduğu katlanma modunun pi ve altın oran cinsinden geometrik kısıt katsayısıdır.
 * *Mod 8 (Lepton):* $\Lambda_{\text{lepton}} = \frac{5}{\pi\Phi}$
-* *Mod 16 (Higgs):* $\Lambda_{\text{Higgs}} = \frac{16}{\pi^2\Phi^2}$
+
 
 
 4. **$\epsilon_{\text{sızıntı}}$ (Modüler Faz Sızıntısı):** Kapalı düğümün mükemmel geometriden (örneğin tam beşgenden veya hiper-toroidden) dolayı dışarıya sızdırdığı ve vakum denizi ($M_0$) ile yaptığı perturbasyon oranıdır. Parçacığın kararlılığına göre $0$ ile $10^{-4}$ arasında çok küçük bir düzeltme katsayısıdır.
 
 ---
-
-### Formülün Higgs Bozonu ($Mod 16$) Üzerinde Uygulanışı:
-
-Formülü yerine koyarak adım adım hesaplayalım:
-
-* **Adım 1:** Mod 16 sınır katsayısını hesapla:
-
-$$\Lambda_{\text{Higgs}} = \frac{16}{\pi^2 \times \Phi^2} = \frac{16}{9.8696 \times 2.6180} \approx 0.619061$$
-
-
-* **Adım 2:** Kök gerilim ile oranlayıp karekökünü al (Matris spektral yoğunluk çarpanı):
-
-$$\sqrt{\frac{\gamma_0}{\Lambda_{\text{Higgs}}}} = \sqrt{\frac{1.0003}{0.619061}} = \sqrt{1.61583}$$
-
-
-$$\sqrt{1.61583} \approx 1.27115$$
-
-
-* **Adım 3:** Higgs kabuk koordinatı ($S = 125$) ile çarp:
-
-$$m_{\text{Higgs}} = 125 \times 1.27115 = 158.89 \text{ GeV/c}^2$$
-
-
-* **Adım 4 (Ayar Alanı Kapanım Düzeltmesi):** Mod 16, kendisinden önceki Mod 4 (Gauge) ve Mod 8 (Lepton) katmanlarının izdüşümünü taşıdığı için, gerçek kütle değeri bu alt modların faz deparasyon katsayısına ($\approx \frac{1}{\pi\Phi}$) projekte olur. Bu projeksiyon matris boyutu ($N \to \infty$) limitinde işletildiğinde kütle doğrudan şu değere oturur:
-
-$$E_{\text{Higgs}} = 125 \times \sqrt{1.0003} \approx 125.018 \text{ GeV/c}^2$$
-
-
-
----
-
-
-
-
-
 
 ## 2. İlkel Katmanlar: Mod 2 (Işık) ve Mod 4 (Gauge / Ayar Alanı)
 
@@ -105,10 +70,6 @@ Lepton sektörü, $\text{Mod 2} \times \text{Mod 4} = \text{Mod 8}$ yapısında 
 * **Analitik Sınır Katsayısı:** $\frac{5}{\pi \times \Phi} \approx 0.983383...$
 * **Kütle Doğrulaması (Elektron):** $S = 13$ Fibonacci kabuk koordinatında, serbest akan vakumun pentagonal kilide sızmasıyla kilitlenen taban özdeğeri: **$0.511 \text{ MeV/c}^2$** (Deneysel CODATA Verisi: $0.51099 \text{ MeV/c}^2$, Uyum: $\%99.9991$).
 
-### 3.3. Mod 16 Higgs Sektörü ve Hiper-Toroidal Kilit Sınırı: $16/(\pi^2\Phi^2)$
-Mod 16, leptonları yöneten Mod 8 sarmalının kendi üzerine bir kez daha katlanarak çift sarmal (hyper-toroidal kilit) oluşturmasıdır. Tüm alt sektörlere sarmal gerilim yoluyla kütle kazandıran Higgs mekanizmasının kökenidir. Hem dairesel akışın hem de en kararlı fraktal sıkışmanın karesel katlarını içerir:
-* **Analitik Sınır Katsayısı:** $\frac{16}{\pi^2 \times \Phi^2} \approx 0.619061...$
-* **Kütle Doğrulaması (Higgs Bozonu):** Sistem matris spektrumunun kırılmadan tutabileceği en yüksek kararlı rezonans eşiği olan $S = 125$ kabuk düğümünde, Clifford kütle gerilimi tabanıyla ($1.0003 \text{ Gev}$) hesaplanan analitik kütle değeri: **$125.02 \text{ GeV/c}^2$** (Deneysel CODATA Verisi: $125.10 \pm 0.14 \text{ GeV/c}^2$, Uyum: $\%99.9360$).
 
 ---
 
@@ -121,7 +82,6 @@ Mod 16, leptonları yöneten Mod 8 sarmalının kendi üzerine bir kez daha katl
 | **Mod 4** | Karesel Düzlem Kafesi | $\frac{1}{\pi} \approx 0.3183$ | Ayar Korunum Limiti | Gauge (Ayar) Bozonları | $\%100$ (Lokal Simetri) |
 | **Mod 6 Hadron** | Üçgen Prizma İlmeği | $\frac{3}{\pi} \approx 0.9549$ | $938.29 \text{ MeV/c}^2$ | $938.27 \text{ MeV/c}^2$ (Proton) | **$\%99.9982$** |
 | **Mod 8 Lepton** | Pentagonal Sarmal | $\frac{5}{\pi\Phi} \approx 0.9833$ | $0.511 \text{ MeV/c}^2$ | $0.51099 \text{ MeV/c}^2$ (Elektron) | **$\%99.9991$** |
-| **Mod 16 Higgs** | Hyper-Toroidal Kilit | $\frac{16}{\pi^2\Phi^2} \approx 0.6190$| $125.02 \text{ GeV/c}^2$ | $125.10 \text{ GeV/c}^2$ (Higgs Bozonu) | **$\%99.9360$** |
 
 ---
 
