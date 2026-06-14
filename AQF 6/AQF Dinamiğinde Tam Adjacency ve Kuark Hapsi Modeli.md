@@ -3,7 +3,9 @@ Bu simülasyon süreci ve arkasındaki mekanizma şu adımlarla gerçekleştiril
 
 ### 1\. Tam Adjacency Kuralının Uygulanması
 
-Simülasyonun temelinde, düğümler arasındaki bağlantı gücünü belirleyen **Exact Adjacency** formülü yer alır:$$\\mathbf{A\_{ij} \= \\Theta(\\phi\_c \- |\\phi\_i \- \\phi\_j|) \\cdot C\_{ij}}$$Burada kuark hapsini simüle etmek için **Topolojik Uyumluluk ($C\_{ij}$)** terimindeki $N$ parametresi **3** (3-gen/triangular closure) olarak ayarlanır 1, 2\. **$\\Theta$** fonksiyonu, faz uyumu olmayan bağlantıları keserek uzayı faza duyarlı bir ağa dönüştürür 3\.
+Simülasyonun temelinde, düğümler arasındaki bağlantı gücünü belirleyen **Exact Adjacency** formülü yer alır:
+$$[\\mathbf{A\_{ij} \= \\Theta(\\phi\_c \- |\\phi\_i \- \\phi\_j|) \\cdot C\_{ij}}]$$
+Burada kuark hapsini simüle etmek için **Topolojik Uyumluluk ($C\_{ij}$)** terimindeki $N$ parametresi **3** (3-gen/triangular closure) olarak ayarlanır 1, 2\. **$\\Theta$** fonksiyonu, faz uyumu olmayan bağlantıları keserek uzayı faza duyarlı bir ağa dönüştürür 3\.
 
 ### 2\. Tekil Kuark Kararsızlığının Modellenmesi (Incomplete Closure)
 
