@@ -4,7 +4,9 @@ AQF ontolojisine göre madde ve vakum ayrı olgular değil, aynı temel yapını
 ### 1\. Üretim Kaynağı: Lagrangian Terimleri
 
 Madde-antimadde üretimini tetikleyen ana dinamik, Lagrangian’daki **Vakum Artığı** ($\\Lambda\_{M0}$) ile **Stabilizasyon Potansiyeli** ($V(G)$) arasındaki dengesizlikten doğar 1, 5\.  
-$$\\mathcal{L}*{AQF} \= \\underbrace{\\mathcal{L}T \+ \\mathcal{L}\\phi \+ \\mathcal{L}A}{\\text{Dinamik Akış}} \+ \\underbrace{\\mathcal{L}G \+ V(G)}{\\text{Kapanma/Stabilizasyon}} \+ \\underbrace{\\Lambda*{M0}}\_{\\text{Kaynak (mod0)}}$$ 5, 6  
+
+$$\\mathcal{L}*{AQF} \= \\underbrace{\\mathcal{L}T \+ \\mathcal{L}\\phi \+ \\mathcal{L}A}{\\text{Dinamik Akış}} \+ \\underbrace{\\mathcal{L}G \+ V(G)}{\\text{Kapanma/Stabilizasyon}} \+ \\underbrace{\\Lambda*{M0}}\_{\\text{Kaynak (mod0)}}$$ 
+5, 6  
 Burada $\\Lambda\_{M0}$, artık "vakum enerjisi" değil, \*\*"kapanmamış geometri yoğunluğu"\*\*dur 7\. Madde üretimi, bu açık geometrinin $M\_1$ katmanında kapalı geometriye dönüşme sürecidir 8\.
 
 ### 2\. Üretim Akısı ve Potansiyel Farkı ($M\_0 \\to M\_1$)
