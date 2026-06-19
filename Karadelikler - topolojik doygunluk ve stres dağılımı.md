@@ -144,7 +144,7 @@ AQF'nin **"Adjacency saturasyon"** (düğüm doygunluğu) prensibiyle şaşırt�
 
 **"Topolojik Akışkanlık Kaybı (Topological Fluidity Loss)"**.
 
-### AQF Yaklaşımıyla Senin Hipotezin: "Doygunluk Sınırı ve Deşarj"
+### AQF Yaklaşımıyla Hipotez: "Doygunluk Sınırı ve Deşarj"
 
 1. **İvmenin "0" Olması (Doygunluk Sınırı):**
 Işık (foton) olay ufkuna doğru spiral çizerken, ağın düğüm yoğunluğu ($\rho_A$) öylesine artar ki, foton artık daha fazla "ivmelenemez" (hızlanamaz veya yörüngesini değiştiremez). Foton, ağın o bölgesinde "kilitlenir" (doygunluk). Senin "ivme sıfıra düştü" dediğin yer burasıdır. Klasik fizikte biz bunu "hareketin durması" olarak yorumlarız, ancak AQF'de bu bir **faz geçişidir**.
