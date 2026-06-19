@@ -69,7 +69,7 @@ Bu noktada $W(x)$ fonksiyonu, ağın iletim kapasitesini sıfıra indirger, bu y
 
 ### 3. Zaman Genişlemesi ve Stres Paylaşımı
 
-Zaman genişlemesi ($T_{dil}$), merkezdeki stres yoğunluğuna bağlı bir "geometrik gecikme" olarak ortaya çıkar.
+Zaman genişlemesi ($T_{dil}$) , merkezdeki stres yoğunluğuna bağlı bir "geometrik gecikme" olarak ortaya çıkar.
 
 * **AQF Zaman Gecikmesi:**
 
@@ -81,9 +81,9 @@ Kara deliğin büyüklüğü arttıkça, bu $W(x)$ alanı daha geniş bir alana 
 
 ### 4. Bütünsel Kara Delik Enerji/Stres Denklemi
 
-Kara deliğin toplam "buruşukluk" enerjisi ($E_{BH}$), iç düğümlerin doygunluk streslerinin toplamıdır:
+Kara deliğin toplam "buruşukluk" enerjisi ($E_{BH}$) , iç düğümlerin doygunluk streslerinin toplamıdır:
 
-$$E_{BH} = \oint_{V_{BH}} \left[ \nabla \mathcal{B}(x) \cdot \rho_{stress}(x) \right] dV$$
+$$[E_{BH} = \oint_{V_{BH}} \left[ \nabla \mathcal{B}(x) \cdot \rho_{stress}(x) \right] dV]$$
 
 ### AQF Kara Delik Modelinin Özeti:
 
@@ -116,7 +116,7 @@ Bu vektör alanı, ışığın (foton rotasının) neden içeriye doğru ivmelen
 
 ### 3. "Düğüm Paylaşımı" ile Kara Delik Büyüklüğü
 
-Kara deliğin büyüklüğü ($\mathcal{R}_{BH}$), toplam stresin ($E_{BH}$) ağ üzerinde stabilize olduğu yarıçaptır. Düğüm paylaşımı sayesinde, merkezdeki saturasyon noktası dışarıya doğru genişler:
+Kara deliğin büyüklüğü ( $\mathcal{R}_{BH}$ ) , toplam stresin ( $E_{BH}$ ) ağ üzerinde stabilize olduğu yarıçaptır. Düğüm paylaşımı sayesinde, merkezdeki saturasyon noktası dışarıya doğru genişler:
 
 $$\mathbf{\mathcal{R}_{BH} = \alpha_A \cdot \sum_{i=1}^{N} \rho_{i, excess}}$$
 
