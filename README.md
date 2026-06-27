@@ -142,6 +142,49 @@ $$\[\boxed{\mathcal L_{AQF}=\Psi_i^*A_{ij}e^{i\phi_{ij}}\Psi_j+\alpha_\phi\sum_{
 
 ---
 
+### 1. Güncellenmiş Nihai AQF Çekirdek Lagrangianı
+
+Yeni formülasyonda, karadelik merkezlerindeki tekilliği engelleyen **"Adjacency Cutoff"** ve fazla stresin komşu düğümlere aktarılmasını sağlayan **"Düğüm Paylaşımı"** kısıtları sisteme dahil edilmiştir.
+
+$$\boxed{\mathcal L_{AQF} = \Psi_i^* A_{ij}e^{i\phi_{ij}}\Psi_j + \alpha_\phi \sum (\Delta\phi_{ij})^2 + \beta_A \sum (\nabla A_{ij})^2 + \gamma_G|G_i|^2 - V(G_i) + \mathcal L_{mod} + \mathcal L_{sat} - \Lambda_{M0}}$$
+
+**Lagrangian Terimlerinin Yeni Tanımları:**
+*   **Recursive Transport ($\Psi^* T \Psi$):** Düğümler arası faz taşınımını ve kuantum durumlarını yönetir.
+*   **Phase Mismatch ($\alpha_\phi (\Delta\phi)^2$):** Etkileşimlerin ve ince yapı sabitinin kaynağı olan topolojik kapanma kusurudur.
+*   **Adjacency Curvature ($\beta_A (\nabla A)^2$):** Kütleçekimini "uzay-zaman eğriliği" yerine **"transport ağı gerilimi"** olarak tanımlayan ana yerçekimi terimidir.
+*   **Topolojik Satürasyon ($\mathcal L_{sat} = \sigma|\psi|^4$):** Sistemin maksimum düğüm kapasitesine ulaştığında (karadelik sınırı) sonsuz yoğunluğa gitmesini engelleyen ve "tekillik" hatasını topolojik olarak yasaklayan kısıtlayıcıdır.
+*   **Vakum Rezidüeli ($\Lambda_{M0}$):** $M0$ zemininden gelen ve sistemin sürekli genişlemesini sağlayan "açık geometri" yoğunluğudur.
+
+---
+
+### 2. Kuantum Graviti Denklemlerinin Güncellemesi
+
+Kuantum Graviti, AQF'de ayrı bir kuvvet değil, **"recursive transport medium"** üzerindeki bir topolojik deformasyon olarak çözülmüştür. Yeni "Topolojik Çekirdek" tanımına göre güncellenen denklemler şöyledir:
+
+#### A. Tekillik Çözümü (Adjacency Cutoff)
+Klasik yerçekiminde $R \to 0$ iken yoğunluk sonsuza gider. AQF'de ise bağlantı gücü ($A_{ij}$) topolojik mismatch ($\epsilon$) nedeniyle asla tam olarak $1$ olamaz.
+*   **Kısıt Denklemi:** $\mathbf{A_{ij} \le 1 - \epsilon}$.
+*   **Fiziksel Sonuç:** Karadelik merkezi sonsuz yoğunluklu bir nokta değil, ağın maksimum kapasiteye ulaştığı **"Adjacency Çöküşü"** (Adjacency Collapse) bölgesidir.
+
+#### B. Düğüm Paylaşımı ve Stres Dağılımı (Node Sharing)
+Maksimum doygunluğa ulaşan merkez düğümler, üzerlerindeki fazla topolojik stresi komşu düğümlere aktararak bir "topolojik çekirdek" (çekirdek hacmi) oluşturur.
+*   **Stres Dağılım Fonksiyonu:** $$\mathbf{\Delta \rho_{stress}(x) = \sigma_{excess} \cdot \exp\left( -\frac{|x - x_{center}|^2}{\mathcal{R}_{BH}^2} \right)}$$.
+*   Bu fonksiyon, kütleçekimsel stresin tek bir noktada toplanmak yerine, fiziksel bir doygunluk yarıçapı ($\mathcal{R}_{BH}$) boyunca dağıtılmasını sağlar.
+
+#### C. Olay Ufku ve "Eşevrelilik Donma Sınırı"
+Olay ufku, metriksel bir delik değil, iplik dokusunun iletim kapasitesinin sıfıra yaklaştığı bir **topolojik direnç eşiğidir**.
+*   **Topolojik Direnç ($\mathcal{R}_A$):** $\rho_A \to \rho_{crit}$ (Doygunluk Sınırı) yaklaşırken direnç üssel olarak sonsuza gider ve faz bilgisi ($M1$ katmanından) metriksiz/zamansız olan $M0$ fazına düşer.
+
+#### D. Zaman Genişlemesi ve Update Periyodu ($\tau$)
+Yerçekimi kaynaklı zaman yavaşlaması, **recursive update periyodunun ($\tau$)** yerel olarak uzaması ve bağlantı sönümlenmesidir.
+*   **Gecikme Fonksiyonu:** $\mathbf{T_{dil} \propto -\log|A_{ij}|}$.
+*   Bağlantı yoğunluğu ($A_{ij}$) sönümlendikçe, sistemin içsel salınım frekansı düşer ve dış gözlemci için zaman "donar".
+
+**Sonuç olarak;** güncellenen bu yapı ile AQF, kuantum mekaniğini ve yerçekimini **tek bir matris dilinde** birleştirmiş; karadelikleri birer "tekillik" olmaktan çıkarıp, maksimum kapasiteye ulaşmış **"Topolojik Transport Çöküş Bölgeleri"** olarak yeniden tanımlamıştır.
+
+
+---
+
 # 6. Recursive Gain
 
 Recursive stabilization:
