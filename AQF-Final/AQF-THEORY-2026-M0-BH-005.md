@@ -142,4 +142,25 @@ Tersine vakum salınımı, galaktik ölçekte doğrudan gözlemlenebilir fizikse
 $$\lim_{r \to 0} \frac{\partial \rho_{\text{yıldız}}}{\partial t} < 0$$
 
 Bu boşluklar, AQF modelinin galaktik ölçekteki en net ve doğrulanabilir doğrudan imzasını oluşturur.
+---
 
+Klasik astrofizikteki **sapan etkisi (gravitational slingshot)** mekanizması, dinamik ve iki cisimli bir etkileşime dayanır. İki kara deliğin çarpışma sürecinde yörüngeler kaotik ve asimetriktir; bu nedenle çevreye fırlatılan yıldızlar da düzensiz, dağınık ve yönsel olarak bozulmuş izler (asimetrik akıntılar veya çarpık boşluklar) bırakır.
+
+AQF modelinin öngördüğü **tersine vakum salınımı (Reverse Unfolding)** ise tamamen farklı bir geometrik karaktere sahiptir:
+
+### 1. İzotropik Vakum Dekompresyonu (İzotropik Genleşme)
+
+Merkezdeki sıkıştırılmış temel vakum serbest kaldığında, bu salınım yönlü bir "fırlatma" hareketi değildir. $M_1$ metrik ızgarasının her yöne eşit oranda gerilimi bırakmasıyla gerçekleşen **izotropik (her yöne eşdeğer) bir basınç dalgasıdır** ($\mathcal{P}_{\text{vac}}$).
+
+### 2. Gözlemsel İmza Farkı: Kaotik Dağınıklık vs. Dairesel Simetri
+
+Bu mekanik fark, galaksinin merkezindeki boşluğun karakterini doğrudan belirler:
+
+* **Sapan Etkisi İmzası:** Düzensiz, asimetrik, kenarları yırtık ve çalkantılı bir "dağınıklık" alanı.
+* **AQF Vakum Salınımı İmzası:** Geometrik olarak çok daha düzgün sınırlı, dairesel (veya eliptik galaksi geometrisine uyumlu şekilde homojen ve simetrik) oyulmuş temiz bir **Merkezi Vakum Dairesi (Isotropic Central Cavity)**.
+
+### 3. Doğrulanabilir Gözlem Kriteri
+
+Gelecekte yüksek çözünürlüklü uzay teleskopları (JWST vb.) ile ölü/aktif olmayan galaksi merkezlerinin yıldız yoğunluğu profilleri incelendiğinde, bu iki mekanizma birbirinden kesin olarak ayırt edilebilir. Eğer merkezdeki boşluk kaotik ve yönsel bir savrulma izi taşıyorsa sapan etkisidir; yok eğer kusursuz bir dairesel simetriyle ve homojen bir "oyulma" profiliyle yayılıyorsa, bu doğrudan AQF'nin **merkezî vakum dekompresyonunun** en net geometrik kanıtı olacaktır.
+
+----
