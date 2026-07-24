@@ -20,7 +20,7 @@ Klasik fizikte $c$ sembolü "ışık hızı" olarak anılırken, AQF modelinde b
 
 * **Topolojik İletim (Faz Kayması) Hızı:** $M_1$ ızgarası, bir bilgi veya enerji fazını bir düğümden diğerine iletirken sonsuz hızla çalışamaz. Ağın kendi topolojik esnekliğinden kaynaklanan bir gecikme süresi vardır. Bu nedenle $c$, ışığa ait bir özellik değil; $M_1$ ızgarasının vakum yenileme ve iletim hızının mutlak üst sınırıdır ($v_{\text{vac(max)}}$).
 
-$$c \equiv v_{\text{vac(max)}} = \frac{1}{\sqrt{\mu_{\text{top}} \epsilon_{\text{top}}}$$
+$$c \equiv v_{\text{vac(max)}} = \frac{1}{\sqrt{\mu_{\text{top}}} \epsilon_{\text{top}}}$$
 
 * **Fotonun Durumu:** Işık (fotonlar) kütlesiz, yani topolojik sürtünmesiz olduğu için ızgaranın izin verdiği bu en yüksek hız limitinde ($c$) hareket eder.
 
