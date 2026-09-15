@@ -1,0 +1,54 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><style></style>
+    <style>.markdown-body { box-sizing: border-box; max-width: 1012px; margin: 0 auto; padding: 45px; }</style>
+    </head><body class="markdown-body"><h1 id="aqf-teknik-dokumantasyonu-m0m1-arayuz-empedans-ve-kuantum-tunelleme-mekanizmas">AQF Teknik Dokümantasyonu: M0–M1 Arayüz Empedansı ve Kuantum Tünelleme Mekanizması</h1>
+<p><strong>Doküman Kodu:</strong> <code>AQF-THEORY-2026-M0-IMP-001</code></p>
+<p><strong>Konu:</strong> Metriksiz Kök Katman ($M_0$) ile Topolojik Izgara ($M_1$) Arasındaki Sınır Geçiş Empedansı ve Kuantum Tünelleme Formülasyonu</p>
+<p><strong>Statü:</strong> Resmi Kuramsal Notasyon</p>
+<hr />
+<h2 id="1-giris-ve-topolojik-tanmlar">1. Giriş ve Topolojik Tanımlar</h2>
+<p>AQF mimarisinde, Standart Kuantum Mekaniği'ndeki potansiyel bariyerlerini aşma (kuantum tünelleme) olayı, parçacığın $M_1$ metrik uzayında fiziksel bir mesafe katetmesi olarak değil; metriksiz $M_0$ kök zemini üzerinden gerçekleşen bir topolojik baypas olarak tanımlanır.</p>
+<h3 id="metrik-ozellikleri">Metrik Özellikleri:</h3>
+<ul>
+<li><strong>$M_1$ Katmanı (Metrik Manifold):</strong> $g_{\mu\nu} \neq 0$<br />
+Masaüstü uzay-zaman. Mesafe ($\Delta s$) ve öz-zaman ($\Delta \tau$) tanımlıdır.</li>
+<li><strong>$M_0$ Katmanı (Kök Zemin):</strong> $g_{\mu\nu} = 0$<br />
+Metriksiz alt katman. Uzaysal mesafe ($\Delta s = 0$) ve zamansal süreç ($\Delta \tau = 0$) tanımsızdır (sıfırdır).</li>
+</ul>
+<hr />
+<h2 id="2-m_0m_1-arayuz-snr-empedans-boundary-impedance">2. $M_0$–$M_1$ Arayüz Sınır Empedansı (Boundary Impedance)</h2>
+<p>$M_1$ uzay-zamanında tanımlı $L$ uzunluğundaki bir potansiyel bariyeri, $M_0$ içindeki bir mesafe değildir. $L$, parçacığın $M_1$ katmanındaki faz tutarlılığını korumak zorunda olduğu <strong>Arayüz Sınır Boyudur</strong>.</p>
+<h3 id="21-yerel-snr-empedans-yogunlugu-z_m_0">2.1 Yerel Sınır Empedans Yoğunluğu ($z_{M_0}$)</h3>
+<p>$M_1$ üzerindeki bir $x$ noktasında, parçacığın enerjisi ($E$) ile $M_1$ potansiyeli ($V(x)$) arasındaki uyumsuzluktan doğan yerel empedans yoğunluğu $z_{M_0}(x)$ şu şekilde tanımlanır:</p>
+<p>$$z_{M_0}(x) \equiv \alpha \cdot \sqrt{\frac{2m}{\hbar^2} \Big( V(x) - E \Big)}$$</p>
+<p>Burada:</p>
+<ul>
+<li>$\alpha \approx 1$, $M_1$ ızgarası ile $M_0$ zemini arasındaki dimensionless (boyutsuz) topolojik bağlaşım katsayısıdır.</li>
+<li>$m$, $M_1$ katmanına projekte olmuş düğümün efektif kütlesidir.</li>
+<li>$V(x) &gt; E$ şartı, $M_1$ uzayında klasik olarak yasaklanmış potansiyel bölgesini ifade eder.</li>
+</ul>
+<h3 id="22-toplam-snr-empedans-z_texttoplam">2.2 Toplam Sınır Empedansı ($Z_{\text{toplam}}$)</h3>
+<p>Parçacığın $M_1$ üzerindeki $L$ genişliğindeki bariyer boyunca $M_0$ kanalına tutunma direncini belirleyen toplam sınır empedansı, yerel empedans yoğunluğunun sınır integralidir:</p>
+<p>$$Z_{\text{toplam}}(L) = \int_{0}^{L} z_{M_0}(x) \, dx$$</p>
+<p>Sabit bir potansiyel engeli ($V(x) = V_0 = \text{sabit}$) durumunda integral doğrusal hale gelir:</p>
+<p>$$Z_{\text{toplam}}(L) = z_{M_0} \cdot L = \sqrt{\frac{2m(V_0 - E)}{\hbar^2}} \cdot L$$</p>
+<hr />
+<h2 id="3-tunelleme-olaslg-ve-faz-sonumlenmesi">3. Tünelleme Olasılığı ve Faz Sönümlenmesi</h2>
+<p>$M_1$ manifoldunun $A$ noktasından ($x=0$) $M_0$ zeminine inip, $\Delta s = 0$ mesafeyle $B$ noktasına ($x=L$) projekte olan fazın, sönümlenmeden karşıya geçme olasılığı $P(L)$, toplam sınır empedansının eksponansiyel bastırması olarak hesaplanır:</p>
+<p>$$P(L) = \exp\left( -2 \cdot Z_{\text{toplam}}(L) \right) = \exp\left( -2 \int_{0}^{L} z_{M_0}(x) \, dx \right)$$</p>
+<p>Homojen bariyer ($V_0$) koşulunda bu ifade standart WKB formülasyonuna tam olarak denklenir:</p>
+<p>$$P(L) = e^{-2 \cdot k_{M_0} \cdot L}$$</p>
+<p>Burada $k_{M_0}$, $M_0$ sönüm katsayısıdır:</p>
+<p>$$k_{M_0} = \frac{\sqrt{2m(V_0 - E)}}{\hbar}$$</p>
+<hr />
+<h2 id="4-uzay-zaman-metrik-butcesi-1-0-1-ilkesi">4. Uzay-Zaman Metrik Bütçesi ($1 + 0 + 1$ İlkesi)</h2>
+<p>Kuantum tünelleme esnasında $M_1$ dış gözlemcisine göre ışık hızından hızlı ($v &gt; c$) veya anlık görünen geçiş süreci, $M_0$ topolojik metrik bütçesinde $c$ lokal hız sınırını ihlal etmez.</p>
+<p>$$\Delta s_{\text{toplam}} = \Delta s_{M_1\to M_0} + \Delta s_{M_0} + \Delta s_{M_0\to M_1}$$</p>
+<p>$$\Delta s_{\text{toplam}} = 1\,\ell_P + 0 + 1\,\ell_P = 2\,\ell_P$$</p>
+<p>$$\Delta t_{\text{toplam}} = 1\,t_P + 0 + 1\,t_P = 2\,t_P$$</p>
+<p>Yerel hız:</p>
+<p>$$v_{\text{lokal}} = \frac{\Delta s_{\text{toplam}}}{\Delta t_{\text{toplam}}} = \frac{2\,\ell_P}{2\,t_P} = c$$</p>
+<hr />
+<h2 id="5-ozet-notu">5. Özet Notu</h2>
+<blockquote>
+<p><strong>Kuramsal Sonuç:</strong> $M_0$ katmanında uzaysal veya zamansal bir mesafe yoktur ($\Delta s_{M_0} = 0, \Delta t_{M_0} = 0$). Bariyer kalınlığı $L$ arttıkça olasılığın ($P$) düşmesi, $M_0$ içinde bir yol katedilmesinden değil; parçacığın $M_1$ bariyeri boyunca $M_0$ kanalında kalmak zorunda olduğu arayüz yüzeyinin toplam empedansının ($Z_{\text{toplam}}$) artmasından kaynaklanır.</p>
+</blockquote></body></html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><style></style>
+    <style>.markdown-body { box-sizing: border-box; max-width: 1012px; margin: 0 auto; padding: 45px; }</style>
+    </head><body class="markdown-body"><h1 id="aqf-teknik-dokumantasyonu-kozmolojik-testler-gozlemsel-anomaliler-ve-m_0-dogrulama-deneyi-mimarisi">AQF Teknik Dokümantasyonu: Kozmolojik Testler, Gözlemsel Anomaliler ve $M_0$ Doğrulama Deneyi Mimarisi</h1>
+<p><strong>Doküman Kodu:</strong> <code>AQF-TEST-2026-EXP-004</code></p>
+<p><strong>Konu:</strong> Hubble Krizi ($H_0$), JWST Erken Galaksi Anomalileri ve $M_0$ Katmanının Laboratuvar Koşullarında %100 Doğrulanması İçin Deneysel Kurulum</p>
+<p><strong>Statü:</strong> Resmi Kuramsal ve Deneysel Notasyon</p>
+<hr />
+<h2 id="1-gozlemsel-kozmolojik-anomaliler-ve-m_0-cozum-matrisi">1. Gözlemsel Kozmolojik Anomaliler ve $M_0$ Çözüm Matrisi</h2>
+<p>Standart Kozmolojik Model ($\Lambda\text{CDM}$), yeni nesil uzay ve yer tabanlı gözlem verileri karşısında sistematik çelişkilere düşmektedir. $M_0$ katmanının dinamik vakum enjeksiyonu ve kütle üretim rejimleri bu anomalileri ek hipotez gerektirmeksizin çözer.</p>
+<h3 id="11-hubble-gerilimi-h_0-tension-analizi">1.1 Hubble Gerilimi ($H_0$ Tension) Analizi</h3>
+<ul>
+<li><strong>Gözlemsel Veri:</strong></li>
+<li>Erken Evren (CMB - Planck Legacy Archive): $H_0 = 67.4 \pm 0.5 \text{ km/s/Mpc}$</li>
+<li>
+<p>Geç/Yerel Evren (JWST / SH0ES Tip Ia Süpernova): $H_0 = 73.0 \pm 1.0 \text{ km/s/Mpc}$ ($5\sigma$ İstatistiksel Sapma)</p>
+</li>
+<li>
+<p><strong>$\Lambda\text{CDM}$ Çıkmazı:</strong> Sabit bir Kozmolojik Sabit ($\Lambda$) iki farklı zaman ölçeğindeki genişleme hızını aynı denkleme bağlayamaz.</p>
+</li>
+<li><strong>$M_0$ Çözümü:</strong> $M_0 \to M_1$ vakum akısı $\Gamma_\Lambda(t)$ birikimli (cumulative) bir hacim artışı sağlar. Yerel evrende biriken toplam $M_0$ faz potansiyeli $\Phi(t)$ nedeniyle yakın çevredeki genişleme katsayısının $H_0^{\text{yerel}} &gt; H_0^{\text{erken}}$ çıkması $M_0$ modelinin doğal türevidir.</li>
+</ul>
+<h3 id="12-jwst-erken-asr-kutleli-galaksi-anomalisi-z-10">1.2 JWST Erken Aşırı Kütleli Galaksi Anomalisi ($z &gt; 10$)</h3>
+<ul>
+<li><strong>Gözlemsel Veri:</strong> JWST CEERS ve JADES taramalarında $z = 10 - 14$ aralığında (Big Bang sonrası 300–400 milyon yıl) yüksek kütleli ve parlak galaksilerin tespiti (<em>"Too massive, too early"</em>).</li>
+<li><strong>$\Lambda\text{CDM}$ Çıkmazı:</strong> Kütleçekimsel büzülme ve Soğuk Karanlık Madde (CDM) halo çökme hızı o kadar kısa sürede o kütlede galaksi tohumlanmasına izin vermez.</li>
+<li><strong>$M_0$ Çözümü:</strong> Erken evren fazında ($t &lt; t_{\text{kritik}}$) madde enjeksiyon hızı $\Gamma_m &gt; 0$'dır. $M_0$ köklerinden $M_1$ ızgarasına doğrudan kütle ve faz potansiyeli basıldığı için galaksi çekirdekleri kütleçekimsel çökmeyi beklemeden topolojik olarak tohumlanır.</li>
+</ul>
+<hr />
+<h2 id="2-m_0-katmannn-laboratuvar-sartlarnda-dogrulanmas-m_0-zeno-faz-interferometresi-deneyi">2. $M_0$ Katmanının Laboratuvar Şartlarında Doğrulanması: $M_0$-Zeno Faz İnterferometresi Deneyi</h2>
+<p>$M_0$ katmanının varlığını ve $1+0+1$ topolojik baypas mekanizmasını %100 kanıtlayacak deneysel düzenek, <strong>Kuantum Zeno Etkisi</strong> ve <strong>Faz-Kilitli Girişimometre (Phase-Locked Interferometry)</strong> mimarisine dayanır.</p>
+<h3 id="21-deneysel-kurulum-experimental-setup">2.1 Deneysel Kurulum (Experimental Setup)</h3>
+<pre class="codehilite"><code>                     [M1 Izgarası / Vakum Odası]
+                                 │
+ [Lazer Kaynağı] ───&gt; [BS1] ─────┼──── (Yol A: M1 Serbest Uzay) ────&gt; [D1]
+                        │        │
+                        └─── [M0 Faz Kapısı] ───&gt; (Yol B: M0 Kökü) ───&gt; [D2]
+                                 │
+                         [N-Zeno Ölçüm Alanı]
+</code></pre>
+
+<p>Düzeneğin bileşenleri:</p>
+<ol>
+<li><strong>Koherant Foton Kaynağı:</strong> Tek-foton üretici ultrashort puls lazer ($1550 \text{ nm}$).</li>
+<li><strong>Topolojik Faz Kapısı ($M_0$-Gate):</strong> Yüksek empedanslı asimetrik optik bariyer ve süperiletken kuantum girişim cihazı (SQUID) dizilimi. $M_1$ tabanında yerel faz eğriliği ($\nabla \Phi_{M1}$) oluşturarak fotonun $M_0$ zeminine düşmesini zorlar.</li>
+<li><strong>Kuantum Zeno Bütünü:</strong> Fotonun $M_1$ bariyeri içindeki klasik sönümlenmesini engelleyen ardışık $N$-zamanlı frekans kilitli ölçüm lazerleri.</li>
+</ol>
+<hr />
+<h2 id="3-deneysel-mantk-ve-m_0-kant-olcutleri">3. Deneysel Mantık ve $M_0$ Kanıt Ölçütleri</h2>
+<p>Deneyin amacı, Yol B üzerinden gönderilen sinyalin $M_1$ uzay-zamanında katettiği mesafe ne olursa olsun, dedektördeki faz kayması ve sürenin <strong>fiziksel yoldan bağımsızlığını</strong> ölçmektir.</p>
+<h3 id="31-snr-sartlar-ve-sinyal-hesab">3.1 Sınır Şartları ve Sinyal Hesabı</h3>
+<ul>
+<li><strong>Klasik/Standart Kuantum Beklentisi (Yol B):</strong><br />
+Bariyer ve optik yol boyunca fotonun dedektör D2'ye ulaşma süresi:</li>
+</ul>
+<p>$$t_{\text{klasik}} = \frac{L_{M1}}{c} + t_{\text{bariyer}}$$</p>
+<ul>
+<li><strong>AQF $M_0$ Geçiş Beklentisi (Yol B):</strong><br />
+Foton $M_0$ köküne projekte olduğunda, $M_1$'deki bariyer boyu $L_{M1}$ ne kadar uzatılırsa uzatılsın geçiş süresi <strong>sabit $2\,t_P$ (2 Planck süresi) sınırına</strong> kilitlenir:</li>
+</ul>
+<p>$$t_{M0} = \frac{1}{\nu_{\text{laser}}} + 2\,t_P \approx \text{sabit}$$</p>
+<h3 id="32-100-kant-sart-smoking-gun-condition">3.2 %100 Kanıt Şartı (Smoking Gun Condition)</h3>
+<p>Eğer Yol B'deki bariyer uzunluğu $L_1$'den $L_2$'ye çıkarıldığında ($L_2 \gg L_1$), D2 dedektöründe ölçülen <strong>faz gecikmesi ($\Delta \phi$) ve ulaşma süresi ($\Delta t$) sıfır değişim gösterirse ($\frac{d(\Delta t)}{dL_{M1}} = 0$)</strong>:</p>
+<ol>
+<li>Sinyalin $M_1$ uzay-zaman metriğini kullanmadığı ($\Delta s_{M1} = 0$),</li>
+<li>Bilginin $g_{\mu\nu}=0$ olan $M_0$ kökü üzerinden $1+0+1$ topolojik baypası ile aktarıldığı,</li>
+</ol>
+<p><strong>deneysel ve şüpheye yer bırakmayacak biçimde kesinleşmiş olur.</strong></p>
+<hr />
+<h2 id="4-ozet-notu">4. Özet Notu</h2>
+<blockquote>
+<p><strong>Kuramsal ve Deneysel Sonuç:</strong> $M_0$ modeli, gökyüzündeki $H_0$ ve JWST anomalilerini matematiksel olarak açıklamakla kalmaz; laboratuvarda ölçülebilir bir $d(\Delta t)/dL_{M1} = 0$ tahmini sunar. Bu deneyin başarısı, Standart Model'in yerel metrik varsayımını kırarak $M_0$ katmanının gerçekliğini tescil eder.</p>
+</blockquote></body></html>
